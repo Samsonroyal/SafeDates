@@ -1,0 +1,7 @@
+NSBluetoothAlwaysUsageDescription = "Please allow app to access your device bluetooth";
+NSFaceIDUsageDescription = "Please allow app to access your device biometrics";
+NSCalendarsUsageDescription = "Please allow app to access your calendar";
+NSContactsUsageDescription = "In order to connect to more people this app needs access to your contacts";
+NSLocationWhenInUseUsageDescription = "Please allow app to access your device location";
+NSMicrophoneUsageDescription = "Allow app to use microphone";
+PermissionGroupNotification = "Allow app to send you notifications";

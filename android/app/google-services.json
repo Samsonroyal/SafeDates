@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "479881530259",
+    "project_id": "bookinga-44386",
+    "storage_bucket": "bookinga-44386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479881530259:android:e84fcedb0fad7e158e7666",
+        "android_client_info": {
+          "package_name": "com.taasa.bookinga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479881530259-t10oa2775j04vgcf5enrip0n4ptv0cgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taasa.bookinga",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "479881530259-0f7ltv63s6vanpc6qns9tv73fsgpf6qh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuLhRlWjlfSazLWi8MOSqlxrivO1arElA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479881530259-0f7ltv63s6vanpc6qns9tv73fsgpf6qh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479881530259-8p17udkbjq5npl1239v3pisrepp1f1ja.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.taasa.bookinga"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

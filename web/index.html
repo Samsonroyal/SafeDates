@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="SafeDates">
+
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="SafeDates is a friend finder app; book a date with someone, pay them to show up as your friend (man or woman) and avoid those awkward aunt questions of "When do you marry?"">
+    <meta name="author" content="Were Samson Bruno">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="SafeDates" /><!-- website name -->
+	<meta property="og:site" content="SafeDates, Bookinga" /> <!-- website link -->
+	<meta property="og:title" content="SafeDates"/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="SafeDates is a friend finder app; book a date with someone, pay them to show up as your friend (man or woman) and avoid those awkward aunt questions of "When do you marry?"" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="Bookinga__3_-removebg-preview.png" sizes="any"/>
+  <link rel="icon" type="image/png" href="Bookinga__3_-removebg-preview.png" />
+  <link rel="apple-touch-icon" href="Bookinga__3_-removebg-preview.png">
+  
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="SafeDates -- A shot at genuine lovingos with people who love you" />
+  <meta property="og:description" content="SafeDates is a friend finder app; book a date with someone, pay them to show up as your friend (man or woman) and avoid those awkward aunt questions of "When do you marry?"" />
+  <meta property="og:image" content="Bookinga_(2).png" /> 
+  <meta name="twitter:title" content="SafeDates -- A shot at genuine lovingos with people who love you" />
+  <meta name="twitter:description" content="SafeDates is a friend finder app; book a date with someone, pay them to show up as your friend (man or woman) and avoid those awkward aunt questions of "When do you marry?"" />
+  <meta name="twitter:image" content="Bookinga_(2).png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> SafeDates -- A shot at genuine lovingos with people who love you </title>
+  <meta name="description" content="SafeDates is a friend finder app; book a date with someone, pay them to show up as your friend (man or woman) and avoid those awkward aunt questions of "When do you marry?"" />
+    
+
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+  
+  
+  
+
+  <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyCZ2K0ydSXYd1d64Ua2ejkYd8gHItdQ2AQ",
+      authDomain: "bookinga-44386.firebaseapp.com",
+      projectId: "bookinga-44386",
+      storageBucket: "bookinga-44386.appspot.com",
+      messagingSenderId: "479881530259",
+      appId: "1:479881530259:web:e042ed61052fae0f8e7666",
+      measurementId: "G-D1G7FE7V8J"
+    }
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+  
+  
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

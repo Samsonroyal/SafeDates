@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>479881530259-8p17udkbjq5npl1239v3pisrepp1f1ja.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.479881530259-8p17udkbjq5npl1239v3pisrepp1f1ja</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>479881530259-t10oa2775j04vgcf5enrip0n4ptv0cgk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAQSqOKF6uOC8bfQTYWGeZo2g2ygfonhkM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>479881530259</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.taasa.bookinga</string>
+	<key>PROJECT_ID</key>
+	<string>bookinga-44386</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bookinga-44386.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:479881530259:ios:6fc3f15c1b7b62c28e7666</string>
+</dict>
+</plist>
