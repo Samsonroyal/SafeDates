@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 import '../widgets/navbar.dart';
 
+import 'package:safedates/ui/discover/discover_screen.dart';
+import 'package:safedates/ui/messages/messages_screen.dart';
+import 'package:safedates/ui/profile/profile_screen.dart';
+
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -209,8 +213,8 @@ class _HomePageState extends State<HomePage> {
           children: [
             _topListView(), // Replace with your actual screens
             _bottomCardView(), // Replace with your actual screens
-            Container(), // Add more containers for other screens
-            Container(), // Add more containers for other screens
+            MessageScreen(),
+            ProfileScreen(), 
           ],
         ),
     );
